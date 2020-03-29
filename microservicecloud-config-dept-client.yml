@@ -72,7 +72,7 @@ eureka:
     service-url:
       defaultZone: http://eureka7001.com:7001/eureka/
   instance:
-    instance-id: microservicecloud-dept8001 #更改实例的id
+    instance-id: microservicecloud-dept8002 #更改实例的id
     prefer-ip-address: true #访问路径可以显示IP地址
 
 #info信息配置 需要在父工程共添加build 需要在pom问加你中添加actuator
