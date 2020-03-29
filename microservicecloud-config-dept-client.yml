@@ -41,9 +41,9 @@ info:
 
 ---
 server:
-  port: 8001 #服务端口号
+  port: 8002 #服务端口号
 spring:
-  profiles: dev
+  profiles: test
   application:
     name: microservicecloud-config-dept-client
   datasource:
